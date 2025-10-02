@@ -1,7 +1,8 @@
 ﻿using System;
-using Exceptions;
 using Interfaces;
+using Exceptions;
 using Weapons;
+using Bombs;
 
 namespace Players
 {
