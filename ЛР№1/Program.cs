@@ -1,21 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-
-interface IMovable
-{
-    void Move();
-}
-
-interface IDamageable
-{
-    void TakeDamage(int amount, Player attacker = null);
-}
-
-interface IShootable
-{
-    void Shoot(Player target);
-}
+using Interfaces;
 
 class NotEnoughMoneyException : Exception
 {
